@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    background: linear-gradient(lightblue,white);
+    text-align: center;
+}
+
+hr{
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+h1{
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+
+h2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+p{
+    line-height: 2;
+    font-family: sans-serif;
+}
+
+a{
+    color:#11999e;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: 10px 20px;
+}
+
+.page1{
+    position: relative;
+    padding-top: 100px;
+}
+
+.image{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+
+}
+.pfp{
+    display: inline;
+    height: 180px;
+    width: 180px;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.page2{
+    position: relative;
+    padding-top: 100px;
+}
+
+.contact{
+    position: relative;
+    text-align: center;
+}
+
+.button{
+    text-decoration: none;
+    background: #11999e;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    font-family: sans-serif;
+}
+
+.page3{
+    background-color:#66bfbf ;
+    position: relative;
+    padding-top: 70px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.copywrite{
+    color: aliceblue;
+}
